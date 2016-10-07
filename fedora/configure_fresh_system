@@ -9,7 +9,7 @@ sudo dnf -y --best --allowerasing install tmux atop zsh thunderbird thunderbird-
 FEDORA_VERSION=`rpm -E %fedora`
 sudo dnf -y install http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$FEDORA_VERSION.noarch.rpm
 sudo dnf -y install http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$FEDORA_VERSION.noarch.rpm
-sudo dnf -y --best --allowerasing install vlc splix gutenprint-cups cups-bjnp mono-devel keepass mplayer golang ncurses-compat-libs kicad retext
+sudo dnf -y --best --allowerasing install vlc splix gutenprint-cups cups-bjnp mono-devel keepass mplayer golang ncurses-compat-libs kicad retext VirtualBox
 sudo dnf -y groupinstall "C Development Tools and Libraries"
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
