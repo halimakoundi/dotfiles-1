@@ -102,6 +102,7 @@ set +e
     cargo install racer
     cargo install rustsym
     cargo install ripgrep
+    cargo install just
 set -e
 fi
 
